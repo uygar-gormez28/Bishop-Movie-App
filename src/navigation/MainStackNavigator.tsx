@@ -1,4 +1,7 @@
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createStackNavigator } from "@react-navigation/stack";
+import HomeScreen from "../screens/HomeScreen";
+
+const Stack = createStackNavigator();
 
 const MainStackNavigator = () => {
   return (
@@ -7,3 +10,5 @@ const MainStackNavigator = () => {
     </Stack.Navigator>
   );
 };
+
+export default MainStackNavigator;
