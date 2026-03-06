@@ -6,6 +6,8 @@ export default class FirstScreen extends Component {
     return (
       <View>
         <Text>FirstScreen</Text>
+        <Text>SecondtScreen</Text>
+
       </View>
     );
   }
